@@ -19,7 +19,7 @@ else:
             is_prime = False
             break
     
-    # If the number is divided by its 0.5 square root from the range 2, it is prime
+    # If the number is not divided by its 0.5 square root from the range 2, it is prime
     if is_prime:
         print(f"{number} is a prime number")
     else:
